@@ -1,0 +1,97 @@
+{
+  "slots": {
+    "G-1": {
+      "vehicle": "GJ01OLD001",
+      "type": "Car",
+      "entry_time": "2026-10-08 10:00:00",
+      "status": "Parked",
+      "reserved": "No"
+    },
+    "G-2": null,
+    "G-3": {
+      "vehicle": "GJ01AB1234",
+      "type": "Car",
+      "entry_time": "2026-10-08 18:09:16",
+      "status": "Parked",
+      "reserved": "No"
+    },
+    "G-4": null,
+    "G-5": null,
+    "G-6": null,
+    "G-7": null,
+    "G-8": null,
+    "F1-1": null,
+    "F1-2": null,
+    "F1-3": null,
+    "F1-4": null,
+    "F1-5": null,
+    "F1-6": null,
+    "F1-7": null,
+    "F1-8": null,
+    "F2-1": null,
+    "F2-2": null,
+    "F2-3": null,
+    "F2-4": null,
+    "F2-5": null,
+    "F2-6": null,
+    "F2-7": null,
+    "F2-8": null
+  },
+  "history": [
+    {
+      "vehicle": "GJ01OLD002",
+      "type": "Car",
+      "slot": "G-3",
+      "entry_time": "2026-10-08 09:00:00",
+      "exit_time": "2026-10-08 10:00:00",
+      "duration": "1 hr",
+      "fee": 30,
+      "status": "Completed",
+      "reserved": "No",
+      "floor": "Ground"
+    },
+    {
+      "vehicle": "GJ01WJ9901",
+      "type": "Car",
+      "slot": "G-3",
+      "floor": "Ground",
+      "entry_time": "2026-10-08 18:06:31",
+      "exit_time": "2026-10-08 18:08:00",
+      "duration": "1 hr",
+      "fee": 30,
+      "status": "Completed",
+      "reserved": "No"
+    },
+    {
+      "vehicle": "GJ01JV2606",
+      "type": "Unknown",
+      "slot": "G-2",
+      "entry_time": "2026-10-08 18:10:41",
+      "exit_time": "2026-10-08 22:03:17",
+      "duration": "0 hr",
+      "fee": 50,
+      "status": "No-show",
+      "reserved": "Yes",
+      "floor": "Ground"
+    },
+    {
+      "vehicle": "GJ01WJ0568",
+      "type": "Car",
+      "slot": "G-4",
+      "floor": "Ground",
+      "entry_time": "2026-10-08 22:03:38",
+      "exit_time": "2026-10-08 22:04:24",
+      "duration": "1 hr",
+      "fee": 30,
+      "status": "Completed",
+      "reserved": "No"
+    }
+  ],
+  "reservations": {
+    "GJ11JV2606": {
+      "slot": "G-2",
+      "booked_at": "2026-10-08 22:05:56",
+      "fee_paid": 50
+    }
+  }
+}

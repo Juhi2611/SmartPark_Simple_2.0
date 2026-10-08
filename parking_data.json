@@ -8,13 +8,7 @@
       "reserved": "No"
     },
     "G-2": null,
-    "G-3": {
-      "vehicle": "GJ01AB1234",
-      "type": "Car",
-      "entry_time": "2026-10-08 18:09:16",
-      "status": "Parked",
-      "reserved": "No"
-    },
+    "G-3": null,
     "G-4": null,
     "G-5": null,
     "G-6": null,
@@ -49,49 +43,7 @@
       "status": "Completed",
       "reserved": "No",
       "floor": "Ground"
-    },
-    {
-      "vehicle": "GJ01WJ9901",
-      "type": "Car",
-      "slot": "G-3",
-      "floor": "Ground",
-      "entry_time": "2026-10-08 18:06:31",
-      "exit_time": "2026-10-08 18:08:00",
-      "duration": "1 hr",
-      "fee": 30,
-      "status": "Completed",
-      "reserved": "No"
-    },
-    {
-      "vehicle": "GJ01JV2606",
-      "type": "Unknown",
-      "slot": "G-2",
-      "entry_time": "2026-10-08 18:10:41",
-      "exit_time": "2026-10-08 22:03:17",
-      "duration": "0 hr",
-      "fee": 50,
-      "status": "No-show",
-      "reserved": "Yes",
-      "floor": "Ground"
-    },
-    {
-      "vehicle": "GJ01WJ0568",
-      "type": "Car",
-      "slot": "G-4",
-      "floor": "Ground",
-      "entry_time": "2026-10-08 22:03:38",
-      "exit_time": "2026-10-08 22:04:24",
-      "duration": "1 hr",
-      "fee": 30,
-      "status": "Completed",
-      "reserved": "No"
     }
   ],
-  "reservations": {
-    "GJ11JV2606": {
-      "slot": "G-2",
-      "booked_at": "2026-10-08 22:05:56",
-      "fee_paid": 50
-    }
-  }
+  "reservations": {}
 }
